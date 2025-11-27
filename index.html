@@ -8,25 +8,27 @@
     <style>
         body {
             margin: 0;
-            font-family: Arial, Helvetica, sans-serif;
-            background: #0d0d0d;
+            font-family: "JetBrains Mono", "Fira Mono", Consolas, monospace;
+            background: #000000;
             color: #ffffff;
         }
 
         header {
             padding: 80px 20px;
             text-align: center;
-            background: linear-gradient(135deg, #611dff, #b84dff);
+            background: linear-gradient(135deg, #ff2fb0, #ff77d4);
+            color: #000;
         }
 
         header h1 {
             font-size: 3rem;
             margin-bottom: 10px;
+            font-weight: 700;
         }
 
         header p {
             font-size: 1.2rem;
-            opacity: 0.9;
+            opacity: 0.95;
         }
 
         .section {
@@ -38,7 +40,7 @@
         .section h2 {
             font-size: 2rem;
             margin-bottom: 20px;
-            border-left: 5px solid #b84dff;
+            border-left: 5px solid #ff2fb0;
             padding-left: 12px;
         }
 
@@ -49,7 +51,7 @@
         }
 
         .card {
-            background: #1c1c1c;
+            background: #111111;
             padding: 20px;
             border-radius: 10px;
             transition: 0.3s;
@@ -58,24 +60,25 @@
 
         .card:hover {
             transform: translateY(-5px);
-            border-color: #b84dff;
+            border-color: #ff2fb0;
+            background: #1a1a1a;
         }
 
         .card h3 {
             margin-top: 0;
-            color: #b84dff;
+            color: #ff77d4;
         }
 
         footer {
             padding: 20px;
             text-align: center;
             background: #0b0b0b;
-            color: #777;
+            color: #999;
             font-size: 0.9rem;
         }
 
         a {
-            color: #b84dff;
+            color: #ff77d4;
             text-decoration: none;
         }
 
@@ -96,7 +99,7 @@
         <h2>About Me</h2>
         <p>
             Write a short description about yourself here. You can talk about your interests, skills,
-            what you’re currently working on, or anything that gives visitors a sense of who you are.
+            what you’re currently working on, or anything that tells visitors who you are.
         </p>
     </div>
 
@@ -128,8 +131,7 @@
     <div class="section">
         <h2>Contact</h2>
         <p>
-            You can reach me at:
-            <br>
+            Reach me at:<br>
             <a href="mailto:yourname@example.com">yourname@example.com</a>
         </p>
     </div>
